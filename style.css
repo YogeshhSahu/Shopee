@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    height: 50px;
+  }
+  .navicon {
+    color: white; 
+    align-items: center; 
+    margin-left: 20px;
+  }
+  .searchbar {
+    display: flex;
+    padding-left: 200px;
+    align-items: center;
+    padding-right: 200px;
+  }
+  .searchbar input {
+    width: 550px;
+    height: 27px;
+    
+  }
+  .searchbar button {
+    margin: 20px;
+    padding: 7px;
+  }
+  .menu {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    margin: 30px; 
+  }
+  .menu li {
+    display: inline-flex;
+    padding: 20px;
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 20px 0 0 20px;
+  }
+  #carouselbg {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .card{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+  #cardbg{
+    height: 300px;
+    width: 300px;
+}
+
+.cards{
+    display: inline-block;
+    border: solid black;
+    border-radius: 3px;
+    margin-left:50px ;
+}
+a{
+  color: white;
+  
+}
